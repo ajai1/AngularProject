@@ -1,0 +1,14 @@
+<label>
+    Input Text
+<label>
+<br>
+<br>
+
+<input type="text" [(ngModel)] = "displayText">
+
+<hr>
+
+
+<p>{{displayText}}</p>
+
+<button class="btn btn-primary" [disabled] = "!btnVisibility()" (click)="resetValue()">Reset</button>
