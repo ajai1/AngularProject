@@ -4,6 +4,8 @@
   <label> Input Value </label>
   <input type="text" placeholder="insert value" (input)= "onUpdateServer($event)">
 
+  <input type="text" placeholder="insert value" [(ngModel)] = "displayText">
+
   <p> {{displayText}} </p>
 
 <hr>
